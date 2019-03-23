@@ -1,0 +1,48 @@
+.solarEnergy {
+    
+
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+
+#solarEnergy{
+    transform:translateY(-50%);
+    transform:translateX(100%);
+    margin:auto;
+   
+ 
+
+}
+
+.red{
+    background: red;
+}
+.main{
+    display:flex;
+    flex-direction:column;
+}
+.sub{
+    display:flex;
+    flex-direction:row;
+    flex-grow:1;
+}
+.sub div{
+    height:33.3%;
+    width:33.3%;
+    
+    
+    flex-grow:1;
+}
+.corner{
+    background-color:blue;
+}
+.target{
+    display:none;
+}

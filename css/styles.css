@@ -1,3 +1,45 @@
+body{
+    background-color: #011330;
+}
 h1 {
   color: fuchsia;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+  font-family: 'Germania One', cursive;
+  font-size:18px;
+}
+#navbar{
+    display:flex;
+    justify-content:space-around;
+    border:2px solid fuchsia;
+    margin-top:3px;
+}
+#navbar a{
+    text-decoration: none;
+    color:white;
+}
+
+#navbar .new:hover{
+    color:#0be8e0;
+}
+.navlinks{
+    padding:10px;
+}
+
+.backgroundimg{
+    background:url("https://thumbs.gfycat.com/BlissfulMintyHectorsdolphin-small.gif");
+     background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+#pic{
+    margin-top:30px;
+}
+h2{ color: fuchsia;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:20px;
+  font-family: 'Germania One', cursive;
+  font-size:18px;
 }

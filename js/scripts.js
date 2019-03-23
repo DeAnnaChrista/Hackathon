@@ -1,22 +1,5 @@
 /* global $ */
 
-console.log('hi');
-
-$('h1').click(function(){
-    $('h1').css('color', 'green');
-    $('h1').text('Ready to Code');
-});
-
-
-
-
-
-
-
-
-
-/* global $ */
-
 $(document).ready(function() {
     var firstLevel = game.levels.start;
     renderLevel(firstLevel);
@@ -32,7 +15,7 @@ $(document).ready(function() {
     });
 });
 
-function renderLevel(level) {
+function renderLevel(level) {x
     $("#prompt").text(level.message);
     $("#choices").empty();
 
