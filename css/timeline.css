@@ -96,10 +96,11 @@ body {
   left: calc(100% + 7px);
   width: 280px;
   padding: 15px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   white-space: normal;
-  color: #1F2833;
+  color: white;
   background: red; /* Box */
+  
   ;
 }
 
@@ -228,7 +229,4 @@ body {
   background-color: #DC143C	;
   padding: 25px;
   margin: 25px;
-}
-.t1{
-  display: none;
 }

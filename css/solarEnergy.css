@@ -27,6 +27,7 @@
 .main{
     display:flex;
     flex-direction:column;
+    height:100%;
 }
 .sub{
     display:flex;
@@ -40,9 +41,16 @@
     
     flex-grow:1;
 }
-.corner{
-    background-color:blue;
-}
+
+
 .target{
     display:none;
+    justify-content:center;
+    text-align:center;
+    background-color: blue;
+    color:white;
+}
+body {
+ background-image: url("https://www.fg-a.com/animated-bgs/2_animated_background.gif");
+ background-color: #cccccc;
 }

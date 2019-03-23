@@ -4,10 +4,13 @@ body{
 h1 {
   color: fuchsia;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom:20px;
+  margin-top: 40px;
+  margin-bottom:40px;
   font-family: 'Germania One', cursive;
-  font-size:18px;
+  font-size:50px;
+}
+#death{
+    
 }
 #navbar{
     display:flex;
@@ -42,4 +45,10 @@ h2{ color: fuchsia;
   margin-bottom:20px;
   font-family: 'Germania One', cursive;
   font-size:18px;
+}
+.item img{
+    margin:auto;
+}
+.k{
+    font-size:18px;
 }

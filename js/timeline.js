@@ -33,7 +33,9 @@
     }
 
     for (let i = 0; i < el.length; i++) {
-      el[i].style.height = `${counter}px`;
+       el[i].style.height = "175px";
+            // el[i].style.height = `${counter}px`;
+
     }
   }
 
@@ -120,7 +122,7 @@
 
 })();
 
-$("#fixb").click(function(){
-    $(".t1").show();
-    $(".t2").hide();
-});
+// $("#fixb").click(function(){
+   // $(".t1").toggle();
+    // $ (".t2").toggle();
+// });
